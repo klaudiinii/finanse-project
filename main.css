@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #292929;
+    
+}
+
+.icon-yellow {
+    color: #ecd407;
+}
+
+.icon {
+    font-size: 27px;
+}
+
+.form-blue {
+    background-color: #001d8a;
+}
+
+.main-form {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.navbar .navbar-right {
+    justify-content: flex-end;
+    
+}
+
+
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+	color: #e6e6e6;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+.navbar a:hover {
+	color: #fff;
+}
+
+.navbar-nav .nav-item h4 {
+    font-size: 13px;
+}
+
+.navbar-nav .nav-item p {
+    font-size: 1em;
+}
+
+.navbar-logo {
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+}
+
+
+.main-form .navbar {
+    line-height: 5px;
+}
+
+.navbar-nav a {
+    display: flex;
+    align-items: center;
+    
+}
+
+div .icon {
+    margin-right: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+/* contact form */
+
+.btn-yellow {
+    background-color: #ecd407;
+}
+
+
+
+.main-form form header {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 25px;
+    margin: 0;
+    color: #fff;
+}
+
+
+
+.main-form form fieldset {
+	padding: 25px;
+}
+
+.main-form form input,
+.main-form form textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border-radius: 6px;
+}
+
+header h3 {
+    
+    text-align: center;
+    
+}
+
+
+form h3 {
+    color: #fff;   
+    margin-bottom: 25px;
+}
+
+form {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    
+}
+
+.contact-form {
+    margin-top: 130px;
+}
+
+
