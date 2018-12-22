@@ -4,24 +4,35 @@
 }
 
 body {
-    background-color: #292929;
-    
+    background-color: #535353;
 }
 
-.icon-yellow {
-    color: #ecd407;
+.btn-pink{
+    background-color: #ed6969;
+}
+
+.btn-pink:hover {
+    background-color: #ea5252;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.txt-pink {
+    color: #ed6969;
 }
 
 .icon {
     font-size: 27px;
 }
 
-.form-blue {
-    background-color: #001d8a;
+.background-claret {
+    background-color: #e8e6e7;
+    color: #333333;
+    
 }
 
 .main-form {
-    background-image: url(img/background.png);
+    background-image: url(img/background.jpg);
     background-size: cover;
     background-position: center;
     
@@ -50,10 +61,16 @@ body {
 
 .navbar-nav .nav-item h4 {
     font-size: 13px;
+    color: #333333;
 }
 
 .navbar-nav .nav-item p {
     font-size: 1em;
+    color: #333333;
+}
+
+.navbar-brand p {
+    color: #333333;
 }
 
 .navbar-logo {
@@ -62,6 +79,13 @@ body {
     align-items: center;
 }
 
+.nav-link i {
+    color: #312825;
+}
+
+.navbar-brand i {
+    color: #312825;
+}
 
 .main-form .navbar {
     line-height: 5px;
@@ -88,9 +112,6 @@ div .icon {
 
 /* contact form */
 
-.btn-yellow {
-    background-color: #ecd407;
-}
 
 
 
@@ -138,4 +159,39 @@ form {
     margin-top: 130px;
 }
 
+/* contact */
+
+.square {
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 22px;
+       
+}
+
+
+
+.contact i {
+    font-size: 25px;
+    color: #424242;
+    
+}
+
+.contact .container p {
+    color: #e6e6e6;
+    margin-left: 170px;
+    margin-bottom: 70px;
+}
+
+/* footer */
+
+footer p {
+    margin: 0px 120px 70px 120px;
+    color: #e6e6e6;
+    text-align: center;
+}
 
