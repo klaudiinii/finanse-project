@@ -4,21 +4,15 @@
 }
 
 body {
-    background-color: #535353;
+    background-color: #faf8f8;
 }
 
-.btn-pink{
-    background-color: #ed6969;
-}
 
-.btn-pink:hover {
-    background-color: #ea5252;
+.btn,
+.square:hover {
+    background-color: red;
     transition-duration: 0.5s;
     cursor: pointer;
-}
-
-.txt-pink {
-    color: #ed6969;
 }
 
 .icon {
@@ -26,8 +20,9 @@ body {
 }
 
 .background-claret {
-    background-color: #e8e6e7;
+    background-color: rgba(81,81,81, 0.4);
     color: #333333;
+    margin-bottom: 100px;
     
 }
 
@@ -109,18 +104,18 @@ div .icon {
 /* contact form */
 
 
-
-
 .main-form form header {
     background-color: rgba(0, 0, 0, 0);
-    padding: 25px;
     margin: 0;
     color: #fff;
 }
 
+<<<<<<< HEAD
 .main-form form fieldset {
 	padding: 25px;
 }
+=======
+>>>>>>> c026d4c277ef4871010b88c20d4d66ef3110887e
 
 .main-form form input,
 .main-form form textarea {
@@ -131,7 +126,11 @@ div .icon {
 }
 
 header h3 {   
+<<<<<<< HEAD
     text-align: center;   
+=======
+    text-align: center;
+>>>>>>> c026d4c277ef4871010b88c20d4d66ef3110887e
 }
 
 form h3 {
@@ -164,20 +163,38 @@ form {
 
 .contact i {
     font-size: 25px;
+<<<<<<< HEAD
     color: #424242;   
+=======
+    color: #ededed;
+    
+>>>>>>> c026d4c277ef4871010b88c20d4d66ef3110887e
 }
 
 .contact .container p {
-    color: #e6e6e6;
+    color: #535353;
     margin-left: 170px;
     margin-bottom: 70px;
 }
 
-/* footer */
+/* info */
 
-footer p {
-    margin: 0px 120px 70px 120px;
-    color: #e6e6e6;
+.info p {
+    margin: 43px 120px 70px 120px;
+    color: #535353;
     text-align: center;
 }
+
+/* footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* media */
+
+@media (max-width: 500px) {
+    .contact { display: none; }
+}
+
 
