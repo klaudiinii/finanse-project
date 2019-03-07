@@ -34,16 +34,12 @@ body {
 .main-form {
     background-image: url(img/background.jpg);
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;    
 }
 
 .navbar .navbar-right {
-    justify-content: flex-end;
-    
+    justify-content: flex-end;   
 }
-
-
 
 .navbar .navbar-brand,
 .navbar .navbar-nav .nav-link {
@@ -122,8 +118,6 @@ div .icon {
     color: #fff;
 }
 
-
-
 .main-form form fieldset {
 	padding: 25px;
 }
@@ -136,12 +130,9 @@ div .icon {
 	border-radius: 6px;
 }
 
-header h3 {
-    
-    text-align: center;
-    
+header h3 {   
+    text-align: center;   
 }
-
 
 form h3 {
     color: #fff;   
@@ -151,8 +142,7 @@ form h3 {
 form {
     padding: 15px;
     margin: 20px;
-    border-radius: 8px;
-    
+    border-radius: 8px;   
 }
 
 .contact-form {
@@ -169,16 +159,12 @@ form {
     margin-left: 200px;
     margin-bottom: 10px;
     text-align: center;
-    padding: 22px;
-       
+    padding: 22px;      
 }
-
-
 
 .contact i {
     font-size: 25px;
-    color: #424242;
-    
+    color: #424242;   
 }
 
 .contact .container p {
